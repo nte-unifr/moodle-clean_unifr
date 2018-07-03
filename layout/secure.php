@@ -58,7 +58,7 @@ echo $OUTPUT->doctype() ?>
     </nav>
 </header>
 
-<div id="page" class="container-fluid<?php echo ($PAGE->course->category == ARCHIVE_CATEGORY)?' archive-background':''; ?>">
+<div id="page" class="container-fluid<?php echo ($PAGE->course->category == $CFG->archive_category)?' archive-background':''; ?>">
 
     <header id="page-header" class="clearfix">
         <?php echo $html->heading; ?>

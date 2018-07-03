@@ -67,7 +67,7 @@ echo $OUTPUT->doctype() ?>
     </nav>
 </header>
 
-<div id="page" class="container-fluid<?php echo ($PAGE->course->category == ARCHIVE_CATEGORY)?' archive-background':''; ?>">
+<div id="page" class="container-fluid<?php echo ($PAGE->course->category == $CFG->archive_category)?' archive-background':''; ?>">
     <?php if ($PAGE->pagelayout <> 'frontpage') {echo $OUTPUT->full_header();} ?>
     <div id="page-content" class="row-fluid">
         <div id="region-main-box" class="<?php echo $regionmainbox; ?>">
