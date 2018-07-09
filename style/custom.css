@@ -35,6 +35,11 @@ img.small-logo {
     }
 }
 
+.archive-background {
+    background-image: url([[pix:theme|archive]]);
+    background-repeat: repeat;
+}
+
 /* Custom CSS Settings
 -------------------------*/
 [[setting:customcss]]

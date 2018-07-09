@@ -29,7 +29,6 @@
  */
 
 $THEME->name = 'clean_unifr';
-define('ARCHIVE_CATEGORY', 75);
 
 /////////////////////////////////
 // The only thing you need to change in this file when copying it to
