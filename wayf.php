@@ -2,10 +2,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 ob_start();
-if (strpos($CFG->wwwroot,'moodle2') === false) {
+if (strpos($CFG->wwwroot,'moodle.unifr.ch') === false) {
     $login = "https://moodle-test.unifr.ch/Shibboleth.sso/Login?entityID=https%3A%2F%2Ftestidp.unifr.ch%2Fidp%2Fshibboleth&target=https%3A%2F%2Fmoodle-test.unifr.ch%2Fauth%2Fshibboleth%2Findex.php";
 } else {
-    $login = "https://moodle2.unifr.ch/Shibboleth.sso/Login?entityID=https%3A%2F%2Faai.unifr.ch%2Fidp%2Fshibboleth&target=https%3A%2F%2Fmoodle2.unifr.ch%2Fauth%2Fshibboleth%2Findex.php";
+    $login = "https://moodle.unifr.ch/Shibboleth.sso/Login?entityID=https%3A%2F%2Faai.unifr.ch%2Fidp%2Fshibboleth&target=https%3A%2F%2Fmoodle.unifr.ch%2Fauth%2Fshibboleth%2Findex.php";
 }
 ?>
     <div class="loginform">
